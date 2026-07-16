@@ -16,27 +16,35 @@ public class userInput {
 //
 //                sc.close();
 
-                // scanner methods
+                // SCANNER METHODS:
 //                sc.next();
 //                sc.nextLine();
 //                sc.nextDouble();
 //                sc.nextBoolean();
 
 
-                // Common Issues:
+                // COMMON ISSUES:
                 Scanner sc2 = new Scanner(System.in);
-                System.out.print("enter age: ");
-                int age2 = sc2.nextInt();
-                // clear input buffer as the \n char is stored in it when we click enter after inputting an int
-                sc2.nextLine();
-                System.out.print("enter fav color: ");
-                String color = sc2.nextLine();
-                System.out.println("age: "+age2+" color: "+color);
+//                System.out.print("enter age: ");
+//                int age2 = sc2.nextInt();
+//                // clear input buffer as the \n char is stored in it when we click enter after inputting an int
+//                sc2.nextLine();
+//                System.out.print("enter fav color: ");
+//                String color = sc2.nextLine();
+//                System.out.println("age: "+age2+" color: "+color);
 
 
+                // PERSISTENT PROMPTING
+                String name;
+                do{
+                        System.out.println("What is your name?");
+                        name= sc2.nextLine().trim();
+                }
+                while(name.isEmpty());
+                System.out.println(name);
 
-                double rectArea= calculateArea(sc2);
-                System.out.println("rectArea: "+rectArea);
+//                double rectArea= calculateArea(sc2);
+//                System.out.println("rectArea: "+rectArea);
                 sc2.close();
         }
 

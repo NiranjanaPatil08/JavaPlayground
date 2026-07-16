@@ -27,5 +27,8 @@ public class operators {
         System.out.println(y);
 
         // ORDER OF OPERATIONS [PEMDAS]
+
+        // TERNARY OPERATOR
+        //  variable = condition? ifTrue : ifFalse
     }
 }
