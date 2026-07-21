@@ -13,6 +13,10 @@ public class constructors {
 
         // Overloaded Constructors => allow a class to have multiple constructors with diff parameter lists
 
+        // Super => refers to parent class (superclass)
+        //          used in constructors and method overriding ( calls parent constructor to initialize attributes
+
+
         // EXAMPLES:
         // Student(String name, int age, double gpa){
         // this.name = name;
