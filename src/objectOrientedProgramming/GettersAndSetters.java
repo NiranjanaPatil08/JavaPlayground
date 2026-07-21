@@ -9,6 +9,9 @@ public class GettersAndSetters {
         // GETTERS = methods that make a field READABLE
         // SETTERS = methods that make a field WRITEABLE
 
+
+        // In the Car class, declare attributes as private and then make getters and setters for them
+        // so that the attributes can't be accessed outside car class with car.color etc
         Car car = new Car("Ford", "red");
         System.out.println(car.getColor());
         car.setColor("blue");
